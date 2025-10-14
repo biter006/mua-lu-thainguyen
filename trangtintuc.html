@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mưa Lũ Tại Thái Nguyên</title>
+    <style>
+       *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       header{
+        background-color: rgb(55, 55, 182);
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+       }
+       nav{
+        padding: 10px 20px;
+        text-align: center;
+        background-color: rgb(111, 197, 228);
+       }
+       nav a{
+        text-align: center;
+        margin: 10px ;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+       }
+       nav a:hover{
+        color: orange;
+        text-decoration: underline;
+       }
+       .banner{
+        background-position: center;
+        background-image: url('https://cdn.tienphong.vn/images/2095c90ac6202bf62507297f6cb639d68f8b0f8d3a41e9cc80e54be70b7eaa6a3f55cecee69d276f2dd021ea16b02c84714ef85a15986e12ec866c53661a093d/ngap-9-20251008141301.jpg');
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(254, 254, 254);
+        text-shadow: 2px,2px,8px rgba(0, 0, 0, 0.9);
+       }
+       .banner h2{
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 10px 25px;
+       }
+       #bangtin{
+        padding: 40px 60px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        gap: 25px;
+       }
+       .article{
+        background-color: rgb(220, 236, 250);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+        transition: transform(0.3s);
+       }
+       .article:hover{
+        transform: translateY(-3px);
+       }
+       .article img{
+        height:200px;
+        width:100%;
+        object-fit: cover;
+       }
+       .article-content{
+        padding: 15px 20px;
+       }
+       .article-content h3{
+        color: rgb(17, 17, 51);
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+       }
+       .article-content p{
+        color: rgb(21, 21, 69);
+        font-size: 0.95rem;
+        line-height:1.5 ;
+       }
+       footer{
+        text-align: center;
+        background-color: rgb(55, 55, 182);
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        margin-top: 20px;
+       }
+       footer a{
+        color: rgb(157, 224, 251);
+        text-decoration: none;
+        margin: 0 20px;
+       }
+       footer a:hover{
+        text-decoration: underline;
+        color: orangered;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trang Tin Tức VNETWORK</h1>
+    </header>
+    <nav>
+        <a href="#trangchu">Trang Chủ</a>
+        <a href="#bangtin">Bảng Tin</a>
+        <a href="#lienhe">Liên Hệ</a>
+    </nav>
+    <section class="banner">
+        <h2>Thái Nguyên: Mưa Lớn Lũ Lụt Gây Thiệt Hại Lớn</h2>
+    </section>
+    <section id="bangtin">
+        <div class="article">
+            <img src="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2024-09/8_4_20240909084442.jpg" alt="">
+            <div class="article-content">
+                <h3>Mưa lớn nhiều tuyến phố rơi vào tình trạng ngập úng</h3>
+                <p>Các phường Phan Đình Phùng, Đường Bắc Sơn kéo dài, Đại Học Sư Phạm ngập hết tầng 1 hậu quả rất nghiêm trong do ảnh hưởng bão mực nước sông Cầu dâng cao mưa lớn kéo dài, đây là 1 trận lũ lịch sử </p>
+            </div>
+        </div>
+        <div class="article">
+            <img src="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2024-09/8_4_20240909084442.jpg" alt="">
+            <div class="article-content">
+                <h3>Mưa lớn nhiều tuyến phố rơi vào tình trạng ngập úng</h3>
+                <p>Các phường Phan Đình Phùng, Đường Bắc Sơn kéo dài, Đại Học Sư Phạm ngập hết tầng 1 hậu quả rất nghiêm trong do ảnh hưởng bão mực nước sông Cầu dâng cao mưa lớn kéo dài, đây là 1 trận lũ lịch sử </p>
+            </div>
+        </div>
+        <div class="article">
+            <img src="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2024-09/8_4_20240909084442.jpg" alt="">
+            <div class="article-content">
+                <h3>Mưa lớn nhiều tuyến phố rơi vào tình trạng ngập úng</h3>
+                <p>Các phường Phan Đình Phùng, Đường Bắc Sơn kéo dài, Đại Học Sư Phạm ngập hết tầng 1 hậu quả rất nghiêm trong do ảnh hưởng bão mực nước sông Cầu dâng cao mưa lớn kéo dài, đây là 1 trận lũ lịch sử </p>
+            </div>
+        </div>
+         <div class="article">
+            <img src="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2024-09/8_4_20240909084442.jpg" alt="">
+            <div class="article-content">
+                <h3>Mưa lớn nhiều tuyến phố rơi vào tình trạng ngập úng</h3>
+                <p>Các phường Phan Đình Phùng, Đường Bắc Sơn kéo dài, Đại Học Sư Phạm ngập hết tầng 1 hậu quả rất nghiêm trong do ảnh hưởng bão mực nước sông Cầu dâng cao mưa lớn kéo dài, đây là 1 trận lũ lịch sử </p>
+            </div>
+        </div>
+         <div class="article">
+            <img src="https://media.vov.vn/sites/default/files/styles/large_watermark/public/2024-09/8_4_20240909084442.jpg" alt="">
+            <div class="article-content">
+                <h3>Mưa lớn nhiều tuyến phố rơi vào tình trạng ngập úng</h3>
+                <p>Các phường Phan Đình Phùng, Đường Bắc Sơn kéo dài, Đại Học Sư Phạm ngập hết tầng 1 hậu quả rất nghiêm trong do ảnh hưởng bão mực nước sông Cầu dâng cao mưa lớn kéo dài, đây là 1 trận lũ lịch sử </p>
+            </div>
+        </div>
+    </section>
+    <footer id="lienhe">
+        <p>Liên Hệ:</p>
+        <a href="https://struanhomes.co.uk/cau-thanh-nien-nhut-nhat-lam-lieu-to-tinh-dan-chi-o-truong-sau-mot-lan-thay-chi-thay-do">FACEBOOK</a>
+        <a href="https://struanhomes.co.uk/cau-thanh-nien-nhut-nhat-lam-lieu-to-tinh-dan-chi-o-truong-sau-mot-lan-thay-chi-thay-do">YOUTOBE</a>
+        <a href="https://struanhomes.co.uk/cau-thanh-nien-nhut-nhat-lam-lieu-to-tinh-dan-chi-o-truong-sau-mot-lan-thay-chi-thay-do">INSTAGRAM</a>
+    </footer>
+</body>
+</html>
